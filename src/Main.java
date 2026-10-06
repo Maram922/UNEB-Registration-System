@@ -14,5 +14,8 @@ public class Main{
         System.out.println();
 
         c3.displayDetails();
+        System.out.println();
+
+        System.out.println("Total candidates registered: " + UNEBCandidates.totalRegistered);
     }
 }
