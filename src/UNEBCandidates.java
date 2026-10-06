@@ -16,7 +16,7 @@ public class UNEBCandidates {
         gradingPolicy = "A-F Grading System";
 
         System.out.println("Exam Year: " +examYear);
-        System.out.println("Registration Fee: UGX" + registrationFee);
+        System.out.println("Registration Fee: UGX " + registrationFee);
         System.out.println("Grading Policy: " + gradingPolicy);
         System.out.println();
     }
