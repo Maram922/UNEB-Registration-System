@@ -1,6 +1,6 @@
 public class UNEBCandidates {
     static int examYear;
-    static double registrationFee;
+    static int registrationFee;
     static String gradingPolicy;
 
     String studentName;
@@ -12,7 +12,7 @@ public class UNEBCandidates {
         System.out.println("Initializing examination settings");
 
         examYear = 2027;
-        registrationFee = 150000.0;
+        registrationFee = 150000;
         gradingPolicy = "A-F Grading System";
 
         System.out.println("Exam Year: " +examYear);
