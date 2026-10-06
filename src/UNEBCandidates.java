@@ -2,6 +2,7 @@ public class UNEBCandidates {
     static int examYear;
     static double registrationFee;
     static String gradingPolicy;
+    static int totalRegistered;
 
     String studentName;
     String registrationStatus;
@@ -37,6 +38,7 @@ public class UNEBCandidates {
         this.studentName = studentName;
         this.examinationCentre = examinationCentre;
         registrationStatus = "Registered";
+        totalRegistered ++;
 
         System.out.println("Candidate Registered: " + studentName);
         System.out.println("Assigned centre: " + examinationCentre);
