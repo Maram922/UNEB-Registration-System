@@ -48,5 +48,6 @@ public class UNEBCandidates {
         System.out.println("Registration Status: " + registrationStatus);
         System.out.println("Examination Centre: " + examinationCentre);
         System.out.println("Exam Year: " + examYear);
+        System.out.println("Registration Fee: UGX " + registrationFee);
     }
 }
