@@ -44,6 +44,7 @@ public class UNEBCandidates {
     }
 
     public void displayDetails(){
+        // Displays the candidate's details together with the shared examination settings
         System.out.println("Candidate Name: " + studentName);
         System.out.println("Registration Status: " + registrationStatus);
         System.out.println("Examination Centre: " + examinationCentre);
