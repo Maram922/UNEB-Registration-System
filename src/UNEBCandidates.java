@@ -49,4 +49,9 @@ public class UNEBCandidates {
         System.out.println("Examination Centre: " + examinationCentre);
         System.out.println("Exam Year: " + examYear);
     }
+
+    public void updateStatus(String newStatus) {
+        this.registrationStatus = newStatus;
+        System.out.println("Status updated for " + studentName + " to: " + registrationStatus);
+    }
 }
