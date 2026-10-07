@@ -1,4 +1,4 @@
-public class UNEBCandidates {
+public class UNEBCandidate {
     static int examYear;
     static double registrationFee;
     static String gradingPolicy;
@@ -31,7 +31,7 @@ public class UNEBCandidates {
         System.out.println();
     }
 
-    public UNEBCandidates(String studentName, String examinationCentre) {
+    public UNEBCandidate(String studentName, String examinationCentre) {
         System.out.println("Constructor Executing");
 
         this.studentName = studentName;

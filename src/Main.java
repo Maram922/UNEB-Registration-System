@@ -1,8 +1,8 @@
 public class Main{
     static void main() {
-        UNEBCandidates c1 = new UNEBCandidates("Victor Musika", "Makerere College School");
-        UNEBCandidates c2 = new UNEBCandidates("Kismat Salima", "King's College Budo");
-        UNEBCandidates c3 = new UNEBCandidates("David Ouma", "Gulu High School");
+        UNEBCandidate c1 = new UNEBCandidate("Victor Musika", "Makerere College School");
+        UNEBCandidate c2 = new UNEBCandidate("Kismat Salima", "King's College Budo");
+        UNEBCandidate c3 = new UNEBCandidate("David Ouma", "Gulu High School");
 
         System.out.println("Registered Candidates");
         System.out.println();
