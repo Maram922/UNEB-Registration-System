@@ -13,6 +13,7 @@ public class Main{
         c2.displayDetails();
         System.out.println();
 
+        c3.updateStatus("Registered");
         c3.displayDetails();
     }
 }
